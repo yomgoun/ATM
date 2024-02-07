@@ -62,6 +62,24 @@ public class Gamemanager : MonoBehaviour
             balance += value;
             UpdateUI();
         }
+        else
+        {
+            nomoney.SetActives(true);
+        }
+    }
 
+    public void SetWithdrawal(int value)
+    {
+        if(balance >= value)
+        {
+            //벨류에서 캐쉬를 빼고 밸런스에 벨류만큼 뺀다
+            cash += value;
+            balance -= value;
+            UpdateUI();
+        }
+        else
+        {
+            nomoney.SetActives(true);
+        }
     }
 }

@@ -902,7 +902,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 141647723}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1747930477}
+        m_TargetAssemblyTypeName: Withdrawal, Assembly-CSharp
+        m_MethodName: OnClickWithdrawal
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 10000
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &141647723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2120,7 +2132,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 390538425}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1747930477}
+        m_TargetAssemblyTypeName: Withdrawal, Assembly-CSharp
+        m_MethodName: OnClickWithdrawal
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 30000
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &390538425
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5148,7 +5172,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1468260509}
-  - {fileID: 2117027521}
   m_Father: {fileID: 2121915770}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5857,7 +5880,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1707456700}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1747930477}
+        m_TargetAssemblyTypeName: Withdrawal, Assembly-CSharp
+        m_MethodName: OnClickInputText
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1707456700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6090,6 +6125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d674290946ee454d9a444998f87858b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textm_: {fileID: 1609404701}
 --- !u!1 &1756567657
 GameObject:
   m_ObjectHideFlags: 0
@@ -6443,7 +6479,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1853983925}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1747930477}
+        m_TargetAssemblyTypeName: Withdrawal, Assembly-CSharp
+        m_MethodName: OnClickWithdrawal
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 50000
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1853983925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7332,18 +7380,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2117027520}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1940553895}
-  m_Father: {fileID: 1575782665}
+  m_Father: {fileID: 2121915770}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4, y: -43}
+  m_AnchoredPosition: {x: 7.999979, y: -65.99997}
   m_SizeDelta: {x: 196.2395, y: 60.6642}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2117027522
@@ -7389,7 +7437,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2117027523}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2121915771}
+        m_TargetAssemblyTypeName: Nomoney, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2117027523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7594,6 +7654,7 @@ RectTransform:
   m_Children:
   - {fileID: 2061802916}
   - {fileID: 1575782665}
+  - {fileID: 2117027521}
   m_Father: {fileID: 449971958}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
